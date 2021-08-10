@@ -292,7 +292,7 @@ Process finished with exit code 0
 ### 8.序列切片用法
 
 ```python
-# 在Python中支持切片[::]语法的序列类型有：列表（list）、元组（tuple）、字符串（str）
+# 在Python中支持切片[start:stop:step]语法的序列类型有：列表（list）、元组（tuple）、字符串（str）
 # 序列的元素下标从左到右是从0逐一递增的
 # 序列的元素下标从右到左是从-1逐一递减的
 # 例如：
